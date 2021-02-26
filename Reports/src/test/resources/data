@@ -1,0 +1,16 @@
+firstname=sai
+middlename=I
+lastname=srikar
+url=http://demo-store.seleniumacademy.com/
+driverpath=C:\\Users\\admin\\Desktop\\Selenium\\chromedriver.exe
+emailid=srikar9899@gmail.com
+password=Srikar@97
+searchproduct=men
+quantity=3
+country=IN
+region=ap
+city=Nlr
+pincode=524002
+company=HTC
+street=Balaji nagr
+mobilenumber=9502476570
