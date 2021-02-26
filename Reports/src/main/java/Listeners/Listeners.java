@@ -11,12 +11,15 @@ import com.aventstack.extentreports.Status;
 import BaseTest.BaseTest;
 import ExtentManager.ExtentManager;
 
+
+
 public class Listeners extends ExtentManager implements ITestListener {
 	BaseTest basetest = new BaseTest();
 	WebDriver driver;
 
 	public void onTestStart(ITestResult result) {
 		test = extent.createTest(result.getName());
+		System.out.println("Test start");
 
 	}
 

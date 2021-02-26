@@ -22,6 +22,7 @@ public class DemoRegistrationTest extends BaseTest {
 		registration.setpasswordBy(data.getProperty("password"));
 		registration.setconfirmpasswordBy(data.getProperty("password"));
 		registration.setregistrationBy();
+		
 
 		Assert.assertEquals(registration.assertcheckBy(), "Hello, sai I srikar!");
 	}
